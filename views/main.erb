@@ -1,0 +1,9 @@
+<div>
+  <% @paragraphs.times do %>
+      <%= @first_word = $word_list.sample.capitalize %>
+  <% (@words-1).times do %>
+    <%= $word_list.sample %>
+  <% end %>.
+  <div style="height: 12px"> </div>
+  <% end %>
+</div>
